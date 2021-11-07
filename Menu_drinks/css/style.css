@@ -1,0 +1,349 @@
+*{
+    margin: 0;
+    padding:0;
+    list-style-type:none;
+    text-decoration: none;
+}
+body{
+    background-color: #2C2929;
+}
+
+:root{
+    --color-Title:#DC143C ;
+    --color-subtitle-elements:#A80F2E;
+}
+
+/****************************************************************************************************
+                                Header page Drinks-menu
+****************************************************************************************************/
+
+header{
+    background:url("../img/img_logo.png");
+    height: 860px;
+    position: relative;
+}
+
+.Title-logo{
+    font-family:'Rye', cursive;
+    color: #DC143C;
+    font-size: 100px;
+    width: 80%;
+    float: left;
+}
+
+.ButtonBack{
+    width: 268px;
+    height: 121px;
+    border:solid 1px #DC143C;
+    float: left;
+    margin-top: 1%;
+}
+
+.ButtonBack a{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    font-size: 60px;
+    color: #DC143C;
+}
+
+.ButtonBack a:hover{
+    background-color: #DC143C;
+    color: #ffffff;
+    transition:ease-in-out .3s;
+    border-radius: 20px;
+}
+
+.BoxSubtitle{
+    position: absolute;
+    bottom:0;
+    left: 50%;
+    color:#ffffff;
+    opacity: 0.8;
+    font-size: 30px;
+    font-family: 'Dancing Script', cursive;
+}
+
+/*************************************************************************************************************************
+                                    Section page Drinks menu
+**************************************************************************************************************************/
+.wraper{
+    display: table;
+    height: 100%;
+}
+
+section{
+    display: table-row;
+    height: 100%;
+}
+
+.container{
+    padding:5%;
+}
+
+.NameDish{
+    color: #fff;
+    font-style: italic;
+    font-weight: 100;
+    font-size: 30px;
+    line-height: 57px;
+    border-bottom:solid 1px #DC143C;
+}
+
+
+.boxDishPineOrange{
+    float: left;
+    margin-right: 37px;
+    width: 400px;
+    padding:1% 0;
+}
+
+.boxDishAutumn{
+    float:left;
+    margin: 0 37px;
+    width: 400px;
+}
+
+.boxDishBlueberry{
+    float:left;
+    margin-left: 37px;
+    width: 400px;
+}
+
+
+/*********Row Second*************/
+
+.boxDishStrawberry{
+    float:left;
+    width: 400px;
+    margin: -14% 37px 0 0 ;
+}
+
+.boxDishPineappleJuice{
+    float:left;
+    width: 400px;
+    margin: -1.7% 37px 0;
+}
+
+.boxDishPeach{
+    float: left;
+    margin-left:37px;
+    margin-top:6%;
+    padding:1% 0;
+    width: 400px;
+}
+
+/*********Row Third********************/
+
+.boxDishSparkling{
+    width: 400px;
+    float:left;
+    margin-right:37px;
+}
+
+.boxDishNonAlcoholic{
+    width: 400px;
+    float:left;
+    margin: 0 37px;
+}
+
+.boxDishPaloma{
+    width: 400px;
+    float:right;
+    margin-left:37px;
+}
+
+/***********Row fourth************************/
+
+.boxDishMint{
+    width:400px;
+    float:left;
+    padding:1% 0;
+    margin: 0 3%;
+}
+
+.boxDishMargarita{
+    width:400px;
+    float:left;
+    padding:1% 0;
+    
+}
+
+.boxDishCherry{
+    width:400px;
+    float:right;
+    padding:1% 0;  
+}
+
+/***************************
+    Footer  page hot
+****************************/
+
+footer {    
+    background-color:  rgb(20, 20, 20);
+    height: 300px;
+    width: 100%;
+}
+
+/*******Columns wish **************/
+
+.columns_wish{
+    width: 324px;
+    float: left;
+}
+
+.Title_wish{
+    color:var(--color-Title);
+    margin-bottom: 30px;
+    font-weight: 800;
+}
+
+.subtitle_wish{
+    color:var(--color-subtitle-elements);
+    margin-bottom: 10px;
+    font-style: italic;
+    font-weight: 500;
+}
+
+.columns_wish ul{
+    color: yellow;
+    padding-left:10px;
+}
+
+.columns_wish ul li{
+    list-style-type: none;
+    margin-bottom: 3px;
+}
+
+.columns_wish ul li a{
+    color: var(--color-subtitle-elements);
+    font-style: italic;
+}
+
+/*********Columns explore****************/
+
+.columns_explore{
+    width: 200px;
+    float: left;
+    margin-left: 30px;
+}
+
+.Title_explore{
+    color:var(--color-Title);
+    font-weight: 800;
+    padding-left: 5px;
+    margin-bottom: 30px;
+}
+
+.columns_explore ul{
+    padding-left:5px;
+}
+
+.columns_explore ul li{
+    margin-bottom: 3px;
+}
+
+.columns_explore ul li a{
+    color: var(--color-subtitle-elements);
+    font-style: italic;
+}
+
+/**********Columns Visit*****************/
+
+.columns_visit{
+    width:250px;
+    float: left;
+}
+
+.Title_Visit{
+    color:var(--color-Title);
+    font-weight: 800;
+    padding-left: 5px;
+    margin-bottom: 30px;
+}
+
+.columns_visit ul{
+    padding-left:5px;
+}
+
+.columns_visit ul li{
+    margin-bottom: 3px;
+}
+
+.columns_visit ul li a{
+    color: var(--color-subtitle-elements);
+}
+
+/**********Columns Legal*******************/
+
+.columns_legal{
+    width:200px;
+    float: left;
+}
+
+.Title_Legal{
+    color:var(--color-Title);
+    font-weight: 800;
+    padding-left: 5px;
+    margin-bottom: 30px;
+}
+.columns_legal ul{
+    padding-left:5px;
+}
+
+.columns_legal  ul li{
+    margin-bottom: 3px;
+}
+
+.columns_legal ul li a{
+    color: var(--color-subtitle-elements);
+}
+
+/********Columns information******************/
+
+.columns_inf{
+    width:407px;
+    height: 100%;
+    float: left;
+}
+
+.Title_inf{
+    color:var(--color-Title);
+    font-weight: 800;
+    padding-left: 5px;
+    margin-bottom: 30px;
+}
+.columns_inf ul{
+    color:#fff;
+    padding-left:5px;
+}
+
+.columns_inf  ul li{
+    margin-bottom: 3px;
+}
+
+.columns_inf ul li a{
+    color: var(--color-subtitle-elements);
+}
+
+.columns_wish ul li a:hover, .columns_explore ul li a:hover, .columns_visit ul li a:hover, 
+.columns_legal ul li a:hover, .columns_inf ul li a:hover{
+    color:#fff;
+    text-shadow: 0 0 10px #fff;
+    font-weight: 600;
+}
+
+/********Social****************/
+
+.icon_facebook, .icon_instagram, .icon_twitter{
+    background-color: var(--color-Title);
+    margin-top:10px;
+    border-radius: 360px;
+}
+
+.icon_facebook:hover, .icon_instagram:hover, .icon_twitter:hover{
+    background-color:#ff2f14;
+}
+

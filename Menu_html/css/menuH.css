@@ -1,0 +1,714 @@
+/**************************************************************************
+                            Page Hot Menu
+***************************************************************************/
+*{
+    margin:0;
+    padding:0;
+    list-style-type: none;
+}
+
+:root{
+    --color-Title:#FC9010 ;
+    --color-subtitle-elements:#C9740C;
+    --color-header:#FF5B00;
+    --color-igredients:#E8790C;
+    --color-title-ing:#FC9010;
+}
+
+/*********Header****************/
+
+.headerMenuHot{
+    background-color: rgb(32, 32, 32);
+    min-height: 206px;
+    background: url("../img/dish hot/Logo.png");
+}
+
+.titleMenu{
+    width: 20%;
+    height: 206px;
+    float: left;
+}
+
+.titleMenu h1{
+    color: var(--color-header);
+    font-size: 100px;
+    font-weight: 700;
+    text-align: center;
+    font-family: 'Rye', cursive;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    height: 100%;
+}
+
+nav{
+    padding:15px;
+    width: 70%;
+    float: right;
+    height: 206px;
+}
+
+.navigation{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul li{
+    margin-right:50px;
+}
+
+nav ul li a{
+    color:var(--color-header);
+    border-radius: 50px;
+    border:solid 3px var(--color-header);
+    font-weight: bold;
+    font-style: italic;
+    font-size:40px;
+    text-align: center;
+    width: 180px;
+    line-height: 60px;
+    display: inline-block;
+}
+
+nav ul li a:hover{
+    background-color: #FF5B00;;
+    color:#fff;
+    text-decoration: none;  
+}
+
+.button_hot{
+    background-color: var(--color-header);
+    color:#000;
+}
+
+.button_back{
+    color:#fc0;
+    border-radius: 50px;
+    border:solid 3px #fc0;
+    text-align: center;
+    width: 221px;
+    line-height: 82px;
+    font-size:60px;
+}
+
+.button_back:hover{
+    background-color: #Fc0;
+    color:#fff;
+    text-decoration: none; 
+}
+
+/******************************
+    Section page Hot menu
+******************************/
+
+.sectionHotMenu{
+    padding: 30px;
+    background-color: #2C2929;
+}
+
+.myContainer{
+    max-width: 1338px;
+    display: block;
+    margin:0 auto;
+    background-color:#211F1F;
+    box-shadow: -5px 0px 25px #000;
+    border-radius: 220px;
+}
+
+/*****************Dish page Meat Menu********************/
+
+/****Style first Row Dish****/
+.firstRowDish{
+    width: 92%;
+    height: 82vh;/*vh висота від видомості екрану*/
+    display: block;
+    margin: 0 auto;
+}
+
+/*Vegetarian Meatballs*/
+
+.boxDishVegMeatball{
+    width: 418px;
+    margin: 10% 0% 0% 0%;
+    float: left;
+}
+
+.VegMeatball{
+    width: 418px;
+    height: 237px;
+    position: absolute;
+    z-index: 1;
+}
+
+.dishVegMeatball{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 418px;
+    height: 237px;
+    color:#fff;
+    z-index: 2;
+    text-align: center;
+    margin:0;
+    font-size: 40px;
+    font-weight: bold;
+    opacity: .6;
+}
+
+/*Turkish Spiced Meatballs with Pomegranate Yogurt Sauce*/
+.boxDishTurkish{
+    width: 396px;
+    margin: 1% 0% 0% 0%;
+    float: left;
+}
+
+.Turkish{
+    width: 396px;
+    height: 212px;
+    position: absolute;
+    z-index: 1;
+}
+
+.dishTurkish{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 396px;
+    height: 212px;
+    color:#fff;
+    z-index: 2;
+    text-align: center;
+    margin:0;
+    font-size: 40px;
+    font-weight: bold;
+    opacity: .6;
+}
+
+
+/*Sausage-Cheddar Balls*/
+
+.boxDishCheddar{
+    width: 356px;
+    margin: 11% 0% 0% 0%;
+    float: left;
+}
+
+.Cheddar{
+    position: absolute;
+    z-index: 1;
+    width:356px;
+    height:234px;
+}
+
+.dishCheddar{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 356px;
+    height: 234px;
+    color:#fff;
+    z-index: 2;
+    text-align: center;
+    margin:0;
+    font-size: 40px;
+    font-weight: bold;
+    opacity: .6;
+}
+
+/******Second Row Dish************/
+
+.secondRowDish{
+    width: 100%;
+    padding: 0 25px;
+    height: 90.5vh;
+}
+
+/*Sausage Wonton Cups*/
+.boxDishWonton{
+    width: 340px;
+    float: left;
+    margin-top: 3%;
+    margin-left:2%;
+}
+
+.Wonton{
+    position: absolute;
+    z-index: 1;
+    width: 340px;
+    height: 267px;
+}
+
+.dishWonton{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 340px;
+    height: 267px;
+    color:#fff;
+    z-index: 2;
+    text-align: center;
+    margin:0;
+    font-size: 40px;
+    font-weight: bold;
+    opacity: .6;
+}
+
+/*Polenta Bites with Wild Mushrooms and Fontina*/
+
+.boxDishPolenta{
+    width: 388px;
+    min-height: 396px;
+    float: left;
+    margin-top: 5%;
+    margin-left:3%;
+}
+
+.Polenta{
+    position: absolute;
+    z-index: 1;
+    width: 388px;
+    height:319px;
+}
+
+.dishPolenta{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 388px;
+    height: 319px;
+    color:#fff;
+    z-index: 2;
+    text-align: center;
+    margin:0;
+    font-size: 40px;
+    font-weight: bold;
+    opacity: .6;
+}
+
+/*Appetizers mrs*/
+.boxDishMrs{
+    width: 407px;
+    float: left;
+    min-height: 480px;
+    margin-left: 2.65%;
+}
+
+.Mrs{
+    position: absolute;
+    z-index: 1;
+    width: 407px;
+    height: 404px;
+}
+
+.dishMrs {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 407px;
+    height: 404px;
+    color:#fff;
+    z-index: 2;
+    text-align: center;
+    margin:0;
+    font-size: 40px;
+    font-weight: bold;
+    opacity: .6;
+}
+
+/********Third Row Dish*****************/
+
+.thirdRowDish{
+    width: 100%;
+    padding: 0 25px;
+    height: 81vh;
+}
+
+
+/*Hot Dates*/
+.boxDishDates{
+    width: 340px;
+    float: left;
+    min-height: 370px;
+}
+
+.Dates{
+    position:absolute;
+    z-index: 1;
+    width: 340px;
+    height: 288px;
+}
+
+.dishDates{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 340px;
+    height: 288px;
+    color:#fff;
+    z-index: 2;
+    text-align: center;
+    margin:0;
+    font-size: 40px;
+    font-weight: bold;
+    opacity: .6;
+}
+
+/*Figs-in-a-Blanket with Goat Cheese*/
+.boxDishFishInBlanket{
+    width: 451px;
+    min-height: 413px;
+    float: left;
+    margin:0 4.1% 0;
+}
+
+.FishInBlanket{
+    position: absolute;
+    z-index: 1;
+    width: 451px;
+    height: 339px;
+}
+
+.dishFishInBlanket{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 451px;
+    height: 339px;
+    color:#fff;
+    z-index: 2;
+    text-align: center;
+    margin:0;
+    font-size: 40px;
+    font-weight: bold;
+    opacity: .6;
+}
+
+/*Clam Toasts with Pancetta*/
+
+.boxDishClam{
+    width: 390px;
+    min-height: 350px;
+    float: right;
+}
+
+.Clam{
+    position:absolute;
+    z-index:1;
+    width: 390px;
+    height: 275px;
+}
+
+.dishClam{
+    position: relative;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    color:#fff;
+    opacity:.6;
+    font-size:40px;
+    font-weight:bold;
+    margin:0;
+    text-align:center;
+    z-index:2;
+    width: 390px;
+    height:275px;
+}
+
+/********Fourth Row Dish*******************/
+
+.fourthRowDish{
+    width: 60%;
+    padding: 0 25px;
+    height:82vh;
+    display: block;
+    margin: 0 auto;
+}
+
+
+
+/*Coconut Shrimp With Fiery Tomato Dip*/
+
+.boxDishBaked{
+    width: 299px;
+    min-height: 451px;
+    float: left;
+}
+
+.Baked{
+    position:absolute;
+    z-index:1;
+    width: 299px;
+    height: 374px;
+}
+
+.dishBaked{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 299px;
+    height: 374px;
+    color:#fff;
+    z-index: 2;
+    text-align: center;
+    margin:0;
+    font-size: 40px;
+    font-weight: bold;
+    opacity: .6;
+}
+
+/*Hot Ball*/
+.boxDishHotBall{
+    width: 357px;
+    min-height: 390px;
+    float: right;
+}
+
+.HotBall{
+    position:absolute;
+    z-index:1;
+    width: 357px;
+    height: 316px;
+}
+
+.dishHotBall{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 357px;
+    height: 316px;
+    color:#fff;
+    z-index: 2;
+    text-align: center;
+    margin:0;
+    font-size: 40px;
+    font-weight: bold;
+    opacity: .6;
+}
+
+/* for all dishes description, title and price*/
+
+.Description{
+    background-color: #000;
+    border-radius: 0px 0px 20px 20px;
+    height: max-content;
+}
+
+.titleIngredients{
+    color: var(--color-title-ing);
+    width: 45%;
+    float: left;
+    height: 80px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding: 2%;
+    font-size:20px;
+    font-style: italic;
+
+}
+
+.ingredients{
+    width: 55%;
+    float: right;
+    color: var(--color-igredients);
+    font-size: 12px;
+    height: 80%;
+    margin:0;
+    padding:2%;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    font-weight: 600;
+}
+
+.Price{
+    height: 100%;
+    width: 90%;
+    padding: 3%;
+    color:#ffff;
+    display: flex;
+    justify-content: center;
+}
+
+/***************************
+    Footer  page hot
+****************************/
+
+footer {    
+    background-color:  rgb(20, 20, 20);
+    height: 300px;
+    width: 100%;
+}
+
+/*******Columns wish **************/
+
+.columns_wish{
+    width: 324px;
+    float: left;
+}
+
+.Title_wish{
+    color:var(--color-Title);
+    margin-bottom: 30px;
+    font-weight: 800;
+}
+
+.subtitle_wish{
+    color:var(--color-subtitle-elements);
+    margin-bottom: 10px;
+    font-style: italic;
+    font-weight: 500;
+}
+
+.columns_wish ul{
+    color: yellow;
+    padding-left:10px;
+}
+
+.columns_wish ul li{
+    list-style-type: none;
+    margin-bottom: 3px;
+}
+
+.columns_wish ul li a{
+    color: var(--color-subtitle-elements);
+    font-style: italic;
+}
+
+/*********Columns explore****************/
+
+.columns_explore{
+    width: 200px;
+    float: left;
+    margin-left: 30px;
+}
+
+.Title_explore{
+    color:var(--color-Title);
+    font-weight: 800;
+    padding-left: 5px;
+    margin-bottom: 30px;
+}
+
+.columns_explore ul{
+    padding-left:5px;
+}
+
+.columns_explore ul li{
+    margin-bottom: 3px;
+}
+
+.columns_explore ul li a{
+    color: var(--color-subtitle-elements);
+    font-style: italic;
+}
+
+/**********Columns Visit*****************/
+
+.columns_visit{
+    width:250px;
+    float: left;
+}
+
+.Title_Visit{
+    color:var(--color-Title);
+    font-weight: 800;
+    padding-left: 5px;
+    margin-bottom: 30px;
+}
+
+.columns_visit ul{
+    padding-left:5px;
+}
+
+.columns_visit ul li{
+    margin-bottom: 3px;
+}
+
+.columns_visit ul li a{
+    color: var(--color-subtitle-elements);
+}
+
+/**********Columns Legal*******************/
+
+.columns_legal{
+    width:200px;
+    float: left;
+}
+
+.Title_Legal{
+    color:var(--color-Title);
+    font-weight: 800;
+    padding-left: 5px;
+    margin-bottom: 30px;
+}
+.columns_legal ul{
+    padding-left:5px;
+}
+
+.columns_legal  ul li{
+    margin-bottom: 3px;
+}
+
+.columns_legal ul li a{
+    color: var(--color-subtitle-elements);
+}
+
+/********Columns information******************/
+
+.columns_inf{
+    width:450px;
+    float: left;
+}
+
+.Title_inf{
+    color:var(--color-Title);
+    font-weight: 800;
+    padding-left: 5px;
+    margin-bottom: 30px;
+}
+.columns_inf ul{
+    color:#fff;
+    padding-left:5px;
+}
+
+.columns_inf  ul li{
+    margin-bottom: 3px;
+}
+
+.columns_inf ul li a{
+    color: var(--color-subtitle-elements);
+}
+
+.columns_wish ul li a:hover, .columns_explore ul li a:hover, .columns_visit ul li a:hover, 
+.columns_legal ul li a:hover, .columns_inf ul li a:hover{
+    color:#fff;
+    text-shadow: 0 0 10px #fff;
+    font-weight: 600;
+}
+
+/********Social****************/
+
+.icon_facebook, .icon_instagram, .icon_twitter{
+    background-color: var(--color-Title);
+    margin-top:10px;
+    border-radius: 360px;
+}
+
+.icon_facebook:hover, .icon_instagram:hover, .icon_twitter:hover{
+    background-color:#ff2f14;
+}
+

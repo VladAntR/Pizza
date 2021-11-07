@@ -1,0 +1,714 @@
+/*******************************************************************************************************
+                                    Page Meat Menu 
+********************************************************************************************************/
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+body{
+    background-color: #000;
+}
+
+/***************************
+    Footer  page fish
+****************************/
+
+:root{
+    --color-Title:#FF580D ;
+    --color-subtitle-elements:#FF614B;
+}
+
+
+footer {    
+    background-color:  rgb(20, 20, 20);
+    height: 300px;
+    width: 100%;
+}
+
+/*******Columns wish **************/
+
+.columns_wish{
+    width: 324px;
+    float: left;
+}
+
+.Title_wish{
+    color:var(--color-Title);
+    margin-bottom: 30px;
+    font-weight: 800;
+}
+
+.subtitle_wish{
+    color:var(--color-subtitle-elements);
+    margin-bottom: 10px;
+    font-style: italic;
+    font-weight: 500;
+}
+
+.columns_wish ul{
+    color: yellow;
+    padding-left:10px;
+}
+
+.columns_wish ul li{
+    list-style-type: none;
+    margin-bottom: 3px;
+}
+
+.columns_wish ul li a{
+    color: var(--color-subtitle-elements);
+    font-style: italic;
+}
+
+/*********Columns explore****************/
+
+.columns_explore{
+    width: 200px;
+    float: left;
+    margin-left: 30px;
+}
+
+.Title_explore{
+    color:var(--color-Title);
+    font-weight: 800;
+    padding-left: 5px;
+    margin-bottom: 30px;
+}
+
+.columns_explore ul{
+    padding-left:5px;
+}
+
+.columns_explore ul li{
+    margin-bottom: 3px;
+}
+
+.columns_explore ul li a{
+    color: var(--color-subtitle-elements);
+    font-style: italic;
+}
+
+/**********Columns Visit*****************/
+
+.columns_visit{
+    width:250px;
+    float: left;
+}
+
+.Title_Visit{
+    color:var(--color-Title);
+    font-weight: 800;
+    padding-left: 5px;
+    margin-bottom: 30px;
+}
+
+.columns_visit ul{
+    padding-left:5px;
+}
+
+.columns_visit ul li{
+    margin-bottom: 3px;
+}
+
+.columns_visit ul li a{
+    color: var(--color-subtitle-elements);
+}
+
+/**********Columns Legal*******************/
+
+.columns_legal{
+    width:200px;
+    float: left;
+}
+
+.Title_Legal{
+    color:var(--color-Title);
+    font-weight: 800;
+    padding-left: 5px;
+    margin-bottom: 30px;
+}
+.columns_legal ul{
+    padding-left:5px;
+}
+
+.columns_legal  ul li{
+    margin-bottom: 3px;
+}
+
+.columns_legal ul li a{
+    color: var(--color-subtitle-elements);
+}
+
+/********Columns information******************/
+
+.columns_inf{
+    width:450px;
+    float: left;
+}
+
+.Title_inf{
+    color:var(--color-Title);
+    font-weight: 800;
+    padding-left: 5px;
+    margin-bottom: 30px;
+}
+.columns_inf ul{
+    color:#fff;
+    padding-left:5px;
+}
+
+.columns_inf  ul li{
+    margin-bottom: 3px;
+}
+
+.columns_inf ul li a{
+    color: var(--color-subtitle-elements);
+}
+
+.columns_wish ul li a:hover, .columns_explore ul li a:hover, .columns_visit ul li a:hover, 
+.columns_legal ul li a:hover, .columns_inf ul li a:hover{
+    color:#ff2f14;
+    text-shadow: 0 0 10px var(--color-subtitle-elements);
+    font-weight: 600;
+}
+
+/********Social****************/
+
+.icon_facebook, .icon_instagram, .icon_twitter{
+    background-color: var(--color-Title);
+    margin-top:10px;
+    border-radius: 360px;
+}
+
+.icon_facebook:hover, .icon_instagram:hover, .icon_twitter:hover{
+    background-color:#ff2f14;
+}
+
+/******************************
+    Header page meat menu
+******************************/
+
+.headerMeatMenu{
+    background: rgb(32, 32, 32);
+    background-image: url("../img/dish/logo.png");
+    min-height: 206px;
+}
+
+.titleMenu{
+    width: 20%;
+    height: 206px;
+    float: left;
+}
+
+.titleMenu h1{
+    color: #fd6f53;
+    font-size: 100px;
+    font-weight: 700;
+    text-align: center;
+    font-family: 'Rye', cursive;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    height: 100%;
+}
+
+nav{
+    padding:15px;
+    width: 70%;
+    float: right;
+    height: 206px;
+}
+
+.navigation{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul li{
+    margin-right:50px;
+}
+
+nav ul li a{
+    color:#F96243;
+    border-radius: 50px;
+    border:solid 3px #F96243;
+    font-weight: bold;
+    font-style: italic;
+    font-size:40px;
+    text-align: center;
+    width: 180px;
+    line-height: 60px;
+    display: inline-block;
+}
+
+nav ul li a:hover{
+    background-color: #F96243;
+    color:#fff;
+    text-decoration: none;  
+}
+
+.button_meat{
+    background-color: #F96243;
+    color:#000;
+}
+
+.button_back{
+    color:#fc0;
+    border-radius: 50px;
+    border:solid 3px #fc0;
+    text-align: center;
+    width: 221px;
+    line-height: 82px;
+    font-size:60px;
+}
+
+.button_back:hover{
+    background-color: #Fc0;
+    color:#fff;
+    text-decoration: none; 
+}
+    
+
+/******************************
+    Section page meat menu
+******************************/
+
+.section_meat_menu{
+    min-height: calc(100vh - 80px);/* Притискаю footer на низу брайзера 100vh це розмір екрану а 80px висота footer*/
+    height: 1500px;
+    /*background: linear-gradient(to top , #ffffff, #F96243);*/
+    padding: 30px;
+    background-color: gray;
+}
+
+.myContainer{
+    max-width: 1338px;
+    display: block;
+    margin:0 auto;
+    height: 100%;
+    background-color: black;
+    /*background:linear-gradient(to top , #ffffff, #F96243);*/
+    box-shadow: -5px 0px 25px #000;
+    border-radius: 220px;
+}
+
+/*****************Dish page Meat Menu********************/
+
+/****Style first Row Dish****/
+.firstRowDish{
+    width: 890px;
+    height: 419px;
+    display: block;
+    margin: 0 auto;
+}
+
+/*Ketto*/
+
+.boxDishKetto{
+    width: 300px;
+    height: auto;
+    margin: 10% 0% 0% 0%;
+    float: left;
+    min-height: 278px;
+}
+
+.meatBall{
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    z-index: 1;
+}
+
+.dishKetto{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 200px;
+    color:#fff;
+    z-index: 2;
+    text-align: center;
+    margin:0;
+    font-size: 40px;
+    font-weight: bold;
+    opacity: .6;
+}
+
+.descriptionDishKetto, .descriptionAsian, .descriptionSticky{
+    background-color: #000;
+    border-radius: 0px 0px 20px 20px;
+    height: max-content;
+}
+
+.titleIngradientsKetto, .titleIngradientsAsia, .titleIngradientsSticky{
+    color: #fd3c16;
+    width: 45%;
+    float: left;
+    height: 80px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding: 2%;
+    font-size:20px;
+    font-style:italic;
+}
+
+.ingredientsKetto, .ingradientsAsian, .ingradientsSticky{
+    width: 55%;
+    float: right;
+    color:#fa351b;
+    font-size: 12px;
+    height: 80%;
+    margin:0;
+    padding:2%;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    font-weight: 600;
+}
+
+.priceKetto, .priceAsian, .priceSticky{
+    height: 100%;
+    width: 90%;
+    padding: 3%;
+    color:#ffffff;
+    display: flex;
+    justify-content: center;
+}
+
+/*Asian*/
+.boxDishAsian{
+    width: 300px;
+    height: auto;
+    margin: 1% 0% 0% 0%;
+    float: left;
+    min-height: 320px;
+}
+
+.Asian{
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    z-index: 1;
+}
+
+.dishAsian{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 200px;
+    color:#fff;
+    z-index: 2;
+    text-align: center;
+    margin:0;
+    font-size: 40px;
+    font-weight: bold;
+    opacity: .6;
+}
+
+
+/*Sticky*/
+
+.boxDishSticky{
+    width: 290px;
+    height: auto;
+    margin: 11% 0% 0% 0%;
+    float: left;
+    min-height: 320px;
+}
+
+.porkRibs{
+    position: absolute;
+    z-index: 1;
+}
+
+.dishSticky{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 290px;
+    height: 177px;
+    color:#fff;
+    z-index: 2;
+    text-align: center;
+    margin:0;
+    font-size: 40px;
+    font-weight: bold;
+    opacity: .6;
+}
+
+/******Second Row Dish************/
+
+.secondRowDish{
+    width: 100%;
+    padding: 0 25px;
+    height: 400px;
+}
+
+/*Curry*/
+.boxDishCurry{
+    width: 277px;
+    height: auto;
+    min-height:284px;
+    position: absolute;
+    margin-top: 3%;
+}
+
+.Curry{
+    position: absolute;
+    z-index: 1;
+}
+
+.dishCurry{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 277px;
+    height: 226px;
+    color:#fff;
+    z-index: 2;
+    text-align: center;
+    margin:0;
+    font-size: 40px;
+    font-weight: bold;
+    opacity: .6;
+}
+
+/*Tacos*/
+
+.boxDishTacos{
+    width: 256px;
+    min-height: 313px;
+    position: absolute;
+    left:25.8%;
+    margin-top: 5%;
+}
+
+.ribSlaw{
+    position: absolute;
+    z-index: 1;
+}
+
+.dishTacos{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 256px;
+    height: 235px;
+    color:#fff;
+    z-index: 2;
+    text-align: center;
+    margin:0;
+    font-size: 40px;
+    font-weight: bold;
+    opacity: .6;
+}
+
+/*Masala*/
+.boxDishMasala{
+    width: 319px;
+    float: left;
+    height: auto;
+    min-height: 243px;
+    margin-left: 2.65%;
+}
+
+.mesala{
+    position: absolute;
+    z-index: 1;
+}
+
+.dishMasala {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 319px;
+    height: 243px;
+    color:#fff;
+    z-index: 2;
+    text-align: center;
+    margin:0;
+    font-size: 40px;
+    font-weight: bold;
+    opacity: .6;
+}
+
+/*Instant*/
+.boxDishInstant{
+    width: 407px;
+    float: left;
+    height: auto;
+    /*margin: 11% 0% 0% 0%;*/
+    min-height: 422px;
+}
+
+.instant{
+    position:absolute;
+    z-index: 1;
+}
+
+.dishInstant{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 407px;
+    height: 422px;
+    color:#fff;
+    z-index: 2;
+    text-align: center;
+    margin:0;
+    font-size: 40px;
+    font-weight: bold;
+    opacity: .6;
+}
+
+/*Ham*/
+.boxDishHam{
+    width: 306px;
+    height: auto;
+    min-height: 300px;
+    float: left;
+    margin:-128px 0 0 80px;
+}
+
+.Ham{
+    position: absolute;
+    z-index: 1;    
+}
+
+.dishHam{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 306px;
+    height: 220px;
+    color:#fff;
+    z-index: 2;
+    text-align: center;
+    margin:0;
+    font-size: 40px;
+    font-weight: bold;
+    opacity: .6;
+}
+
+/*Bob Armstrong Chile con Queso*/
+
+.boxDishBob{
+    width: 426px;
+    height: auto;
+    min-height: 372px;
+    float: left;
+    margin:-128px 0 0 0;
+}
+
+.Bob{
+    position:absolute;
+    z-index:1;
+}
+
+.dishBob{
+    position: relative;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    color:#fff;
+    opacity:.6;
+    font-size:40px;
+    font-weight:bold;
+    margin:0;
+    text-align:center;
+    z-index:2;
+    width: 426px;
+    height:294px;
+}
+
+/*Blue cheese*/
+
+.boxDishBlueCheese{
+    width: 388px;
+    height: auto;
+    min-height: 364px;
+    float: left;
+    /*margin: 0 0 0 0;*/
+}
+
+.blueCheese{
+    position:absolute;
+    z-index:1;
+}
+
+.dishBlueCheese{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 388px;
+    height: 286px;
+    color:#fff;
+    z-index: 2;
+    text-align: center;
+    margin:0;
+    font-size: 40px;
+    font-weight: bold;
+    opacity: .6;
+}
+
+/* for all dishes description, title and price*/
+
+.Description{
+    background-color: #000;
+    border-radius: 0px 0px 20px 20px;
+    height: max-content;
+}
+
+.titleIngredients{
+    color: #fd3c16;
+    width: 45%;
+    float: left;
+    height: 80px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding: 2%;
+    font-size:20px;
+    font-style: italic;
+
+}
+
+.ingredients{
+    width: 55%;
+    float: right;
+    color:#fa351b;
+    font-size: 12px;
+    height: 80%;
+    margin:0;
+    padding:2%;
+    display:flex;
+    justify-content: center;
+    align-items:center; 
+    font-weight: 600; 
+}
+
+.Price{
+    height: 100%;
+    width: 90%;
+    padding: 3%;
+    color:#ffff;
+    display: flex;
+    justify-content: center;
+}
